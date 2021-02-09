@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* src/App.css */
+body, html {
+  background-color: pink;
+  height: 100%;
+  font-family: Verdana, Geneva, sans-serif
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.connectionStatus {
+  padding-top: 20px;
+  margin-left: 5%;
+  font-size: 1.5em;
+}
+.subscriber {
+  margin-left: 10%;
+}
+.publisher {
+  float: right;
+  margin-right: 10%;
+}
+.OTPublisherContainer {
+  width: 80vh !important;
+  height: 80vh !important;
+}
+#error {
+  color: red;
 }
